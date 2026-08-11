@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 const files=(await readdir('.')).filter(f=>f.endsWith('.html'));
 assert.equal(files.length,5,'site must contain five HTML pages');
 const docs=Object.fromEntries(await Promise.all(files.map(async f=>[f,await readFile(f,'utf8')])));
+const progressData=await readFile('progress.js','utf8');
 for(const [file,html] of Object.entries(docs)){
   assert.match(html,/lang="zh-Hant"/,`${file}: language missing`);
   assert.match(html,/name="viewport"/,`${file}: responsive viewport missing`);
@@ -21,5 +22,11 @@ for(const file of ['documents/blessings-bakery-contract.docx','documents/blessin
 }
 assert.match(docs['contract.html'],/完整草案共 22 條/);
 assert.match(docs['service.html'],/Google Maps/);
-assert.match(docs['progress.html'],/2027[\/.]01–03/);
+assert.match(progressData,/2027\.01/);
+assert.equal((progressData.match(/id:'M(?:\d+)'/g)||[]).length,13,'progress must include M0 and M1–M12');
+assert.equal((docs['index.html'].match(/data-preview=/g)||[]).length,4,'all four resources need preview buttons');
+assert.match(docs['index.html'],/1BrORCEgT3sc90gSsql45itluGme7pr3MJOXL0guxU10\/edit/,'contract Google Doc link is incorrect');
+assert.match(docs['index.html'],/1vswIHhkM4zhPCzpfsXSP5O72jWinq8L4gd9PMmm-oXU\/edit/,'service guide Google Doc link is incorrect');
+assert.match(docs['contract.html'],/1BrORCEgT3sc90gSsql45itluGme7pr3MJOXL0guxU10\/edit/,'contract page must open the contract Google Doc');
+assert.match(docs['service.html'],/1vswIHhkM4zhPCzpfsXSP5O72jWinq8L4gd9PMmm-oXU\/edit/,'service page must open the service guide Google Doc');
 console.log(`Validated ${files.length} pages and shared proposal terms.`);
