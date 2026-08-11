@@ -1,4 +1,4 @@
-import {readFile,readdir} from 'node:fs/promises';
+import {readFile,readdir,stat} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const files=(await readdir('.')).filter(f=>f.endsWith('.html'));
 assert.equal(files.length,5,'site must contain five HTML pages');
@@ -15,5 +15,11 @@ const homeText=docs['index.html'].replace(/<[^>]+>/g,' ');
 for(const pattern of [/48\s*支(?:正式)?短影音/,/48\s*篇社群貼文/,/12\s*支會員前導片/,/NT\$348,000/]) assert.match(homeText,pattern,`homepage missing ${pattern}`);
 assert.match(docs['service.html'],/2026\/10\/01–2027\/09\/30/);
 assert.match(docs['contract.html'],/2026\/10\/01–2027\/09\/30/);
+for(const file of ['documents/blessings-bakery-contract.docx','documents/blessings-bakery-service-guide.docx']){
+  assert.ok((await stat(file)).size>20000,`${file}: full document missing`);
+  assert.match(docs[file.includes('contract')?'contract.html':'service.html'],new RegExp(file.replaceAll('.','\\.')),`${file}: download link missing`);
+}
+assert.match(docs['contract.html'],/完整草案共 22 條/);
+assert.match(docs['service.html'],/Google Maps/);
 assert.match(docs['progress.html'],/2027\/01–03/);
 console.log(`Validated ${files.length} pages and shared proposal terms.`);

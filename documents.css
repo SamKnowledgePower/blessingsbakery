@@ -1,0 +1,4 @@
+.clause-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;background:#fff;padding:26px 34px;border:1px solid var(--line)}
+.clause-grid ol{margin:0;padding-left:24px}
+.clause-grid li{padding:4px 0}
+@media(max-width:560px){.clause-grid{grid-template-columns:1fr;padding:22px}}
