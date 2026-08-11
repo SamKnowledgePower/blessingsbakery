@@ -1,3 +1,3 @@
 # Blessings Bakery proposal
 
-Six-page static proposal site: proposal, business map, service specification, agreement, progress dashboard and admin entry.
+Five-page static proposal site: proposal, agreement, service specification, progress dashboard and business-model map.
