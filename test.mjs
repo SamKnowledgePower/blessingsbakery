@@ -21,5 +21,5 @@ for(const file of ['documents/blessings-bakery-contract.docx','documents/blessin
 }
 assert.match(docs['contract.html'],/完整草案共 22 條/);
 assert.match(docs['service.html'],/Google Maps/);
-assert.match(docs['progress.html'],/2027\/01–03/);
+assert.match(docs['progress.html'],/2027[\/.]01–03/);
 console.log(`Validated ${files.length} pages and shared proposal terms.`);
