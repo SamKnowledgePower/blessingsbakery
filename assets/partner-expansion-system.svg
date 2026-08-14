@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+<title id="title">Blessings Bakery 社區型烘焙坊合作夥伴擴張系統</title>
+<desc id="desc">呈現 Sourdough Taiwan 招募入口、理念篩選、基本承諾、免費輔導、產品解鎖、資料循環與十年里程碑。</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8F3EA"/><stop offset="1" stop-color="#EADCCB"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#291A13"/><stop offset="1" stop-color="#4A3021"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#2A1B13" flood-opacity=".13"/></filter>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="2" seed="9"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .035"/></feComponentTransfer></filter>
+ <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#9E7048"/></marker>
+ <marker id="ad" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#37271E"/></marker>
+ <style>
+ .sans{font-family:"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}.serif{font-family:"Noto Serif TC","Songti TC","PMingLiU",serif}.ink{fill:#251A14}.muted{fill:#75665A}.white{fill:#FFF9F0}
+ .node{fill:#FFFCF7;stroke:#D2B99D;stroke-width:1.4}.wheat{fill:#F1E1CE;stroke:#C39160;stroke-width:1.4}.sage{fill:#E3E9DF;stroke:#95A28D;stroke-width:1.4}
+ .line{fill:none;stroke:#9E7048;stroke-width:2.2;marker-end:url(#a)}.dash{fill:none;stroke:#9E7048;stroke-width:2;stroke-dasharray:7 7;marker-end:url(#a)}
+ </style>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/><rect width="1920" height="1080" filter="url(#grain)" opacity=".55"/>
+<circle cx="1792" cy="42" r="225" fill="none" stroke="#C69B6D" opacity=".20"/><circle cx="1792" cy="42" r="168" fill="none" stroke="#C69B6D" opacity=".15"/>
+
+<!-- header -->
+<text x="70" y="57" class="sans" fill="#9A6A42" font-size="15" font-weight="800" letter-spacing="4">BLESSINGS BAKERY · PARTNER EXPANSION SYSTEM</text>
+<text x="70" y="112" class="serif ink" font-size="44" font-weight="800">從 10 家示範，走向 200 家社區型烘焙坊</text>
+<text x="72" y="151" class="sans muted" font-size="19">以台灣小麥與酸麵包為共同承諾，用貢獻解鎖產品與輔導，而不是複製同一間店</text>
+<g transform="translate(1625 70)"><text x="0" y="30" class="serif" fill="#9A6A42" font-size="56" font-weight="800">10</text><text x="65" y="29" class="sans muted" font-size="15" font-weight="750">YEARS</text><path d="M138 22H183" fill="none" stroke="#9A6A42" stroke-width="2" marker-end="url(#a)"/><text x="202" y="30" class="serif" fill="#9A6A42" font-size="56" font-weight="800">200</text></g>
+<path d="M70 181H1850" stroke="#C9AD8D" opacity=".55"/>
+
+<!-- hub -->
+<g filter="url(#shadow)"><rect x="505" y="212" width="910" height="96" rx="25" fill="url(#dark)"/></g>
+<circle cx="558" cy="260" r="25" fill="#C99562"/><path d="M546 269c17-3 22-15 23-28-14 4-23 12-23 28zm14-16c-8-4-15-3-21 0 6 7 12 10 19 9" fill="none" stroke="#FFF7EB" stroke-width="2" stroke-linecap="round"/>
+<text x="960" y="252" class="serif white" font-size="28" font-weight="800" text-anchor="middle">Blessings Bakery 營運總部</text>
+<text x="960" y="281" class="sans" fill="#DCC5AC" font-size="15" font-weight="650" text-anchor="middle" letter-spacing="1.5">品牌標準 · 原物料 · 產品研發 · 免費輔導 · ERP 與資料回饋</text>
+
+<!-- three entry paths -->
+<text x="70" y="353" class="sans" fill="#9A6A42" font-size="14" font-weight="800" letter-spacing="3">01 · THREE OPEN ENTRY PATHS</text>
+<path d="M960 308V341H324V380" class="line"/><path d="M960 308V380" class="line"/><path d="M960 308V341H1596V380" class="line"/>
+<g filter="url(#shadow)"><rect x="70" y="380" width="508" height="155" rx="22" fill="#FFFDF9" stroke="#D4BEA4"/></g>
+<text x="96" y="412" class="sans" fill="#9A6A42" font-size="13" font-weight="800">A · SOURDOUGH TAIWAN 體驗</text>
+<text x="324" y="453" class="serif ink" font-size="23" font-weight="800" text-anchor="middle">每月線上／實體交替下鄉</text>
+<text x="324" y="483" class="sans muted" font-size="14" text-anchor="middle">材料費 NT$500・實體 6–8 人開班</text>
+<text x="324" y="509" class="sans muted" font-size="13" text-anchor="middle">從體驗中找到願意推廣台灣小麥的人</text>
+
+<g filter="url(#shadow)"><rect x="706" y="380" width="508" height="155" rx="22" fill="#FFFDF9" stroke="#D4BEA4"/></g>
+<text x="732" y="412" class="sans" fill="#697461" font-size="13" font-weight="800">B · 既有場地／烘焙業者</text>
+<text x="960" y="453" class="serif ink" font-size="23" font-weight="800" text-anchor="middle">烘焙坊・教室・社區中心</text>
+<text x="960" y="483" class="sans muted" font-size="14" text-anchor="middle">已有正式烤箱、設備或轉型意願</text>
+<text x="960" y="509" class="sans muted" font-size="13" text-anchor="middle">可直接申請，不必先完成任何課程</text>
+
+<g filter="url(#shadow)"><rect x="1342" y="380" width="508" height="155" rx="22" fill="#FFFDF9" stroke="#D4BEA4"/></g>
+<text x="1368" y="412" class="sans" fill="#697461" font-size="13" font-weight="800">C · 科學做麵包學員（選配）</text>
+<text x="1596" y="453" class="serif ink" font-size="23" font-weight="800" text-anchor="middle">帶著技術與產品構想申請</text>
+<text x="1596" y="483" class="sans muted" font-size="14" text-anchor="middle">課程能加速成長，但不是加入門檻</text>
+<text x="1596" y="509" class="sans muted" font-size="13" text-anchor="middle">不想開店，也可只參與技術學習</text>
+
+<!-- application/filter -->
+<path d="M324 535V558H960V581" class="line"/><path d="M960 535V581" class="line"/><path d="M1596 535V558H960V581" class="line"/>
+<rect x="375" y="581" width="1170" height="116" rx="22" fill="#F0E0CC" stroke="#BC8A59" stroke-width="1.5"/>
+<text x="407" y="613" class="sans" fill="#9A6A42" font-size="13" font-weight="800" letter-spacing="2">02 · APPLY &amp; ALIGN</text>
+<text x="960" y="622" class="serif ink" font-size="25" font-weight="800" text-anchor="middle">申請合作｜先看理念，再確認基本承諾</text>
+<g class="sans" fill="#4D4035" font-size="15" font-weight="650">
+ <text x="525" y="662" text-anchor="middle">使用台灣小麥</text><text x="813" y="662" text-anchor="middle">固定販售認證酸麵包</text><text x="1101" y="662" text-anchor="middle">向總部採購指定原料</text><text x="1389" y="662" text-anchor="middle">回報銷售＋提供優化</text>
+</g>
+<circle cx="525" cy="640" r="4" fill="#A87343"/><circle cx="813" cy="640" r="4" fill="#A87343"/><circle cx="1101" cy="640" r="4" fill="#A87343"/><circle cx="1389" cy="640" r="4" fill="#A87343"/>
+
+<!-- tier ladder -->
+<text x="70" y="747" class="sans" fill="#9A6A42" font-size="14" font-weight="800" letter-spacing="3">03 · CONTRIBUTION-BASED GROWTH LADDER</text>
+<text x="1848" y="747" class="sans muted" font-size="13" text-anchor="end">依銷量、原物料採購與對總部的貢獻逐步解鎖；輔導本身不另外收費</text>
+<path d="M960 697V769" class="line"/>
+
+<rect x="70" y="770" width="341" height="125" rx="21" class="node"/>
+<text x="96" y="801" class="sans" fill="#9A6A42" font-size="13" font-weight="800">LEVEL 01</text><text x="241" y="836" class="serif ink" font-size="22" font-weight="800" text-anchor="middle">認證酸麵包夥伴</text><text x="241" y="866" class="sans muted" font-size="13" text-anchor="middle">共同經典款＋基本品牌與品質標準</text>
+<path d="M411 833H449" class="line"/>
+<rect x="450" y="770" width="341" height="125" rx="21" class="wheat"/>
+<text x="476" y="801" class="sans" fill="#9A6A42" font-size="13" font-weight="800">LEVEL 02</text><text x="621" y="836" class="serif ink" font-size="22" font-weight="800" text-anchor="middle">解鎖黑麥麵包</text><text x="621" y="866" class="sans muted" font-size="13" text-anchor="middle">依穩定銷售與原物料合作進階</text>
+<path d="M791 833H829" class="line"/>
+<rect x="830" y="770" width="341" height="125" rx="21" fill="#C59160" stroke="#A56E3E" stroke-width="1.4"/>
+<text x="856" y="801" class="sans white" font-size="13" font-weight="800">LEVEL 03</text><text x="1001" y="836" class="serif white" font-size="22" font-weight="800" text-anchor="middle">解鎖布里歐麵包</text><text x="1001" y="866" class="sans" fill="#F0DFCC" font-size="13" text-anchor="middle">以更高貢獻換取進階研發支持</text>
+<path d="M1171 833H1209" class="line"/>
+<rect x="1210" y="770" width="640" height="125" rx="21" fill="url(#dark)"/>
+<text x="1237" y="801" class="sans" fill="#C99562" font-size="13" font-weight="800">LOCAL CHAMPION</text><text x="1530" y="836" class="serif white" font-size="23" font-weight="800" text-anchor="middle">具有地方特色的 Blessings 社區型烘焙坊</text><text x="1530" y="866" class="sans" fill="#DCC5AC" font-size="13" text-anchor="middle">共用核心承諾，發展自己的地方產品、社區關係與經營方式</text>
+
+<!-- support + feedback footer -->
+<rect x="70" y="921" width="1050" height="111" rx="22" fill="#E4E9DF" stroke="#99A591"/>
+<text x="96" y="953" class="sans" fill="#687360" font-size="13" font-weight="800" letter-spacing="2">FREE HEADQUARTERS SUPPORT</text>
+<text x="96" y="984" class="serif ink" font-size="20" font-weight="800">認證配方・品質標準・原料供應・產品研發・品牌行銷・社區互動・ERP 與營運資料</text>
+<text x="96" y="1012" class="sans muted" font-size="13">夥伴的銷售與地方需求持續回饋總部，總部再修正 SOP、研發新品並強化整個網絡。</text>
+<path d="M1530 895V911H1120V977" class="dash"/>
+
+<rect x="1144" y="921" width="706" height="111" rx="22" fill="#2D211A"/>
+<text x="1170" y="953" class="sans" fill="#C99562" font-size="13" font-weight="800" letter-spacing="2">10-YEAR MILESTONES</text>
+<g class="sans" text-anchor="middle"><text x="1248" y="995" fill="#FFF9F0" font-size="24" font-weight="800">10 家</text><text x="1248" y="1017" fill="#CDB9A7" font-size="12">第 1 年</text><text x="1424" y="995" fill="#FFF9F0" font-size="24" font-weight="800">50 家</text><text x="1424" y="1017" fill="#CDB9A7" font-size="12">第 3 年</text><text x="1600" y="995" fill="#FFF9F0" font-size="24" font-weight="800">100 家</text><text x="1600" y="1017" fill="#CDB9A7" font-size="12">第 5 年</text><text x="1776" y="995" fill="#C99562" font-size="26" font-weight="800">200 家</text><text x="1776" y="1017" fill="#CDB9A7" font-size="12">第 10 年</text></g>
+<path d="M1300 986H1360M1476 986H1536M1652 986H1712" fill="none" stroke="#9E7048" stroke-width="2" marker-end="url(#a)"/>
+
+<text x="1848" y="1062" class="sans muted" font-size="12" text-anchor="end" letter-spacing="1.5">理念找到人 · 制度支持人 · 貢獻解鎖人 · 地方特色留住人</text>
+</svg>

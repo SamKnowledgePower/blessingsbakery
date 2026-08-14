@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+<title id="title">Blessings Bakery 一年內容、會員與課程成長引擎</title>
+<desc id="desc">呈現月度內容引擎、五階段學習旅程、兩條產品路線、年度產量、KPI與雙方責任。</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8F3EB"/><stop offset="1" stop-color="#EBE0D1"/></linearGradient>
+  <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2B1B13"/><stop offset="1" stop-color="#4A3021"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#2A1B13" flood-opacity=".13"/></filter>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="17"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .035"/></feComponentTransfer></filter>
+  <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#9E7048"/></marker>
+  <marker id="ad" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#34241B"/></marker>
+  <style>
+    .sans{font-family:"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}.serif{font-family:"Noto Serif TC","Songti TC","PMingLiU",serif}
+    .ink{fill:#251A14}.muted{fill:#75665A}.white{fill:#FFF9F0}.line{fill:none;stroke:#9E7048;stroke-width:2.2;marker-end:url(#a)}
+    .node{fill:#FFFCF7;stroke:#D2B99D;stroke-width:1.4}.sage{fill:#E4E9E0;stroke:#9AA692;stroke-width:1.4}.wheat{fill:#F0E0CC;stroke:#C39465;stroke-width:1.4}
+    .nt{font-size:18px;font-weight:750;text-anchor:middle;fill:#2A201A}.ns{font-size:13px;text-anchor:middle;fill:#74665B}
+  </style>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/><rect width="1920" height="1080" filter="url(#grain)" opacity=".55"/>
+<circle cx="1802" cy="42" r="225" fill="none" stroke="#C69B6D" opacity=".20"/><circle cx="1802" cy="42" r="168" fill="none" stroke="#C69B6D" opacity=".15"/>
+
+<!-- header -->
+<text x="70" y="57" class="sans" fill="#9A6A42" font-size="15" font-weight="800" letter-spacing="4">BLESSINGS BAKERY · YEAR ONE OPERATING MAP</text>
+<text x="70" y="112" class="serif ink" font-size="44" font-weight="800">一年內容、會員與課程成長引擎</text>
+<text x="72" y="151" class="sans muted" font-size="19">先用內容擴大知名度，再把信任轉化為會員、課程與長期合作人才</text>
+<g transform="translate(1590 72)"><text x="0" y="28" class="serif" fill="#9A6A42" font-size="56" font-weight="800">12</text><text x="73" y="8" class="sans muted" font-size="14" font-weight="750">MONTHS</text><text x="73" y="30" class="sans muted" font-size="14" font-weight="750">ONE SYSTEM</text></g>
+<path d="M70 181H1850" stroke="#C9AD8D" opacity=".55"/>
+
+<!-- monthly engine -->
+<g filter="url(#shadow)"><rect x="70" y="214" width="1780" height="188" rx="25" fill="#FFFDF9" stroke="#D7C4AC"/></g>
+<rect x="70" y="214" width="330" height="188" rx="25" fill="url(#dark)"/><rect x="370" y="214" width="30" height="188" fill="url(#dark)"/>
+<text x="105" y="254" class="sans" fill="#C99562" font-size="14" font-weight="800" letter-spacing="3">MONTHLY CONTENT ENGINE</text>
+<text x="105" y="298" class="serif white" font-size="28" font-weight="800">一個月度主題</text>
+<text x="105" y="330" class="sans" fill="#D7C1AA" font-size="15">同一份知識，多層次轉譯</text>
+<text x="105" y="360" class="sans" fill="#D7C1AA" font-size="15">觸及 → 理解 → 實作 → 發問</text>
+<path d="M400 308H438" class="line"/>
+
+<g>
+  <rect x="450" y="242" width="235" height="132" rx="18" class="wheat"/><text x="568" y="275" class="sans" fill="#9A6A42" font-size="13" font-weight="800" text-anchor="middle">AUTHORITY</text><text x="568" y="315" class="serif ink" font-size="28" font-weight="800" text-anchor="middle">1 支</text><text x="568" y="344" class="sans muted" font-size="15" text-anchor="middle">公開旗艦長片／月</text>
+  <rect x="703" y="242" width="235" height="132" rx="18" class="node"/><text x="821" y="275" class="sans" fill="#9A6A42" font-size="13" font-weight="800" text-anchor="middle">REACH</text><text x="821" y="315" class="serif ink" font-size="28" font-weight="800" text-anchor="middle">4 支</text><text x="821" y="344" class="sans muted" font-size="15" text-anchor="middle">短影音／月</text>
+  <rect x="956" y="242" width="235" height="132" rx="18" class="node"/><text x="1074" y="275" class="sans" fill="#9A6A42" font-size="13" font-weight="800" text-anchor="middle">RELATIONSHIP</text><text x="1074" y="315" class="serif ink" font-size="28" font-weight="800" text-anchor="middle">4 則</text><text x="1074" y="344" class="sans muted" font-size="15" text-anchor="middle">社群圖文／月</text>
+  <rect x="1209" y="242" width="235" height="132" rx="18" class="sage"/><text x="1327" y="275" class="sans" fill="#697461" font-size="13" font-weight="800" text-anchor="middle">SEARCH</text><text x="1327" y="315" class="serif ink" font-size="28" font-weight="800" text-anchor="middle">1 篇</text><text x="1327" y="344" class="sans muted" font-size="15" text-anchor="middle">SEO 文案／月</text>
+  <rect x="1462" y="242" width="358" height="132" rx="18" fill="#F1E8DC" stroke="#CDB79D"/><text x="1641" y="275" class="sans" fill="#697461" font-size="13" font-weight="800" text-anchor="middle">MEMBERSHIP DEPTH</text><text x="1641" y="308" class="serif ink" font-size="24" font-weight="800" text-anchor="middle">6 支純會員影片</text><text x="1641" y="337" class="sans muted" font-size="14" text-anchor="middle">＋旗艦延伸內容＋1 次直播問答</text><text x="1641" y="359" class="sans muted" font-size="12" text-anchor="middle">每月建立持續付費理由</text>
+</g>
+
+<!-- journey label -->
+<text x="70" y="445" class="sans" fill="#9A6A42" font-size="14" font-weight="800" letter-spacing="3">THE FIVE-STAGE CUSTOMER JOURNEY</text>
+<text x="1848" y="445" class="sans muted" font-size="13" text-anchor="end">內容不是六條各做各的管道，而是把同一個人帶向下一個行動</text>
+
+<!-- funnel stages -->
+<g filter="url(#shadow)"><rect x="70" y="469" width="1780" height="342" rx="25" fill="#FFFDF9" stroke="#D7C4AC"/></g>
+<!-- top stage nodes -->
+<rect x="94" y="501" width="278" height="104" rx="18" fill="#B27C49"/>
+<text x="118" y="528" class="sans white" font-size="13" font-weight="800">01 · 公開流量</text><text x="233" y="562" class="serif white" font-size="23" font-weight="800" text-anchor="middle">第一次認識</text><text x="233" y="587" class="sans" fill="#F2DFCB" font-size="13" text-anchor="middle">短影音・社群・SEO・旗艦片</text>
+<path d="M372 553H404" class="line"/>
+<rect x="405" y="501" width="278" height="104" rx="18" class="sage"/>
+<text x="429" y="528" class="sans" fill="#697461" font-size="13" font-weight="800">02 · 免費教育</text><text x="544" y="562" class="serif ink" font-size="23" font-weight="800" text-anchor="middle">建立信任</text><text x="544" y="587" class="sans muted" font-size="13" text-anchor="middle">訂閱 YT → LINE／Email → 免費影片</text>
+<path d="M683 553H715" class="line"/>
+<rect x="716" y="501" width="278" height="104" rx="18" class="wheat"/>
+<text x="740" y="528" class="sans" fill="#9A6A42" font-size="13" font-weight="800">03 · 快樂做麵包</text><text x="855" y="560" class="serif ink" font-size="22" font-weight="800" text-anchor="middle">3 天做出＿＿麵包</text><text x="855" y="586" class="sans muted" font-size="13" text-anchor="middle">NT$3,500・每季 1 門・每門 10–15 人</text>
+<path d="M994 553H1026" class="line"/>
+<rect x="1027" y="501" width="278" height="104" rx="18" fill="#6F765F"/>
+<text x="1051" y="528" class="sans white" font-size="13" font-weight="800">04 · YOUTUBE 會員</text><text x="1166" y="560" class="serif white" font-size="23" font-weight="800" text-anchor="middle">持續學習與發問</text><text x="1166" y="586" class="sans" fill="#E0E5DC" font-size="13" text-anchor="middle">單一等級・NT$200–250／月</text>
+<path d="M1305 553H1337" class="line"/>
+<rect x="1338" y="501" width="488" height="104" rx="18" fill="url(#dark)"/>
+<text x="1362" y="528" class="sans" fill="#C99562" font-size="13" font-weight="800">05 · 科學做麵包</text><text x="1582" y="560" class="serif white" font-size="23" font-weight="800" text-anchor="middle">錄播系統＋直播解題諮詢</text><text x="1582" y="586" class="sans" fill="#D7C1AA" font-size="13" text-anchor="middle">NT$20,000–30,000・每年 10 人・開發自己的酸麵包產品</text>
+
+<!-- parallel mission path -->
+<path d="M544 605V652H817" class="line"/>
+<rect x="716" y="652" width="514" height="100" rx="18" fill="#F6ECDD" stroke="#BC8C5D" stroke-width="1.5"/>
+<text x="742" y="680" class="sans" fill="#9A6A42" font-size="13" font-weight="800">平行入口 · SOURDOUGH TAIWAN</text>
+<text x="973" y="709" class="serif ink" font-size="22" font-weight="800" text-anchor="middle">台灣小麥酸麵包基礎體驗課</text>
+<text x="973" y="735" class="sans muted" font-size="13" text-anchor="middle">材料費 NT$500・每月 1 場・線上／實體交替・實體 6–8 人</text>
+<path d="M1230 702H1280" class="line"/>
+<rect x="1281" y="652" width="545" height="100" rx="18" fill="#E5E9E1" stroke="#8D9A85" stroke-width="1.5"/>
+<text x="1306" y="680" class="sans" fill="#697461" font-size="13" font-weight="800">MISSION CONVERSION</text>
+<text x="1554" y="709" class="serif ink" font-size="22" font-weight="800" text-anchor="middle">認同理念者申請社區型烘焙坊</text>
+<text x="1554" y="735" class="sans muted" font-size="13" text-anchor="middle">不要求先完成科學麵包｜銜接「合作夥伴擴張地圖」</text>
+
+<text x="94" y="783" class="sans muted" font-size="12">學習路徑與使命路徑可以交會，但不互相綁定；科學做麵包是技術進階選配，不是工坊申請門檻。</text>
+
+<!-- bottom execution/KPI/roles -->
+<rect x="70" y="839" width="850" height="174" rx="23" fill="#E7D4BC" stroke="#C7A37E"/>
+<text x="96" y="870" class="sans" fill="#8C603A" font-size="14" font-weight="800" letter-spacing="2">12-MONTH DELIVERY</text>
+<text x="96" y="903" class="serif ink" font-size="22" font-weight="800">年度正式產量</text>
+<g class="sans" fill="#4E4035" font-size="15">
+ <text x="96" y="936">12 支旗艦長片　·　48 支短影音　·　48 則社群圖文　·　12 篇 SEO</text>
+ <text x="96" y="966">72 支純會員影片　·　12 次會員直播　·　4 門入門課　·　12 場 Sourdough 體驗</text>
+ <text x="96" y="994" fill="#796858" font-size="13">正式期間：2026.10–2027.09｜服務費維持 NT$29,000／月</text>
+</g>
+
+<rect x="942" y="839" width="416" height="174" rx="23" fill="#FFFDF9" stroke="#D3BDA2"/>
+<text x="968" y="870" class="sans" fill="#8C603A" font-size="14" font-weight="800" letter-spacing="2">SUCCESS MILESTONES</text>
+<text x="968" y="906" class="serif ink" font-size="21" font-weight="800">可驗證的年度成果</text>
+<text x="968" y="940" class="sans muted" font-size="15">2026 年底：40 位付費會員</text>
+<text x="968" y="967" class="sans muted" font-size="15">2027 年底：100 位付費會員</text>
+<text x="968" y="994" class="sans muted" font-size="15">每年：40–60 位入門課學員＋10 位進階學員</text>
+
+<rect x="1380" y="839" width="470" height="174" rx="23" fill="url(#dark)"/>
+<text x="1406" y="870" class="sans" fill="#C99562" font-size="14" font-weight="800" letter-spacing="2">OWNERSHIP</text>
+<text x="1406" y="905" class="serif white" font-size="20" font-weight="800">清楚分工，才能長期運轉</text>
+<text x="1406" y="938" class="sans" fill="#E1D0BF" font-size="14">Sam：內容、影音、課程製作、SEO、名單經營</text>
+<text x="1406" y="966" class="sans" fill="#E1D0BF" font-size="14">Blessings：銷售自動化、網站上架維護、ERP 建構</text>
+<text x="1406" y="994" class="sans" fill="#BFA995" font-size="12">專業內容由 Blessings 確認；市場轉譯與製作由 Sam 負責</text>
+
+<text x="1845" y="1053" class="sans muted" font-size="12" text-anchor="end" letter-spacing="1.5">讓更多人知道 → 願意持續學 → 買得下課程 → 找到理念夥伴</text>
+</svg>
