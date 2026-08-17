@@ -40,6 +40,7 @@ assert.match(docs['map.html'],/partner-expansion-system\.svg/,'partner expansion
 assert.match(docs['index.html'],/id="system-maps"/,'proposal homepage must embed the system maps');
 assert.match(docs['index.html'],/assets\/year-one-growth-engine\.svg/,'proposal homepage missing year-one map embed');
 assert.match(docs['index.html'],/assets\/partner-expansion-system\.svg/,'proposal homepage missing partner map embed');
+assert.doesNotMatch(docs['index.html'],/開啟完整地圖說明/,'embedded maps should not repeat a separate expansion CTA');
 const yearMap=await readFile('assets/year-one-growth-engine.svg','utf8');
 const partnerMap=await readFile('assets/partner-expansion-system.svg','utf8');
 for(const marker of ['兩級 YouTube 會員','Sourdough Taiwan','待下一次會議確認']) assert.match(`${yearMap}\n${partnerMap}\n${Object.values(docs).join('\n')}`,new RegExp(marker),`canonical proposal missing ${marker}`);
