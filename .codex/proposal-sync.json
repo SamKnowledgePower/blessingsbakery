@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "project_id": "blessings-bakery",
+  "project_name": "Blessings Bakery 一年期知識事業共建提案",
+  "mode": "fast",
+  "targets": [
+    {
+      "type": "website",
+      "enabled": true,
+      "repo_root": "/Users/apple/Documents/Codex/2026-08-13/uf/work/blessingsbakery",
+      "content_source": "service.html",
+      "files": [
+        "index.html",
+        "map.html",
+        "service.html",
+        "contract.html",
+        "progress.html",
+        "progress.js",
+        "site.js",
+        "styles.css",
+        "test.mjs"
+      ],
+      "branch": "main",
+      "build_command": "node test.mjs",
+      "deploy_workflow": "GitHub Pages",
+      "live_url": "https://samknowledgepower.github.io/blessingsbakery/",
+      "routes": ["", "map.html", "service.html", "contract.html", "progress.html"],
+      "verification_markers": ["兩級 YouTube 會員", "Sourdough Taiwan", "待下一次會議確認"]
+    },
+    {
+      "type": "system_map",
+      "enabled": true,
+      "role": "year_one_membership_engine",
+      "source": "service.html",
+      "svg_path": "assets/year-one-growth-engine.svg",
+      "embed_file": "map.html",
+      "route": "map.html",
+      "png_export": "assets/year-one-growth-engine.png",
+      "skill": "build-proposal-system-map"
+    },
+    {
+      "type": "system_map",
+      "enabled": true,
+      "role": "partner_expansion_system",
+      "source": "service.html",
+      "svg_path": "assets/partner-expansion-system.svg",
+      "embed_file": "map.html",
+      "route": "map.html",
+      "png_export": "assets/partner-expansion-system.png",
+      "skill": "build-proposal-system-map"
+    },
+    {
+      "type": "google_doc",
+      "enabled": true,
+      "role": "contract",
+      "document_id": "1wVQKVJLxvjaqGIQXbnSYuO2jsxhqQz04KYH2okPHIsk",
+      "url": "https://docs.google.com/document/d/1wVQKVJLxvjaqGIQXbnSYuO2jsxhqQz04KYH2okPHIsk/edit"
+    },
+    {
+      "type": "google_doc",
+      "enabled": true,
+      "role": "service_specification",
+      "document_id": "10bF_wMkciBFYMOeUycFGjg626X1vX0cDp7h_rVTFyoI",
+      "url": "https://docs.google.com/document/d/10bF_wMkciBFYMOeUycFGjg626X1vX0cDp7h_rVTFyoI/edit"
+    },
+    {
+      "type": "local_export",
+      "enabled": true,
+      "include_by_default": false,
+      "path": "/Users/apple/Documents/Codex/2026-08-13/uf/work/blessingsbakery/documents"
+    }
+  ]
+}

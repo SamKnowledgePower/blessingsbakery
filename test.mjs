@@ -18,14 +18,16 @@ for(const [file,html] of Object.entries(docs)){
 }
 for(const link of ['service.html','contract.html','progress.html','map.html']) assert.match(docs['index.html'],new RegExp(link.replace('.','\\.')),`homepage missing ${link}`);
 const homeText=docs['index.html'].replace(/<[^>]+>/g,' ');
-for(const pattern of [/48\s*支(?:正式)?短影音/,/48\s*則社群圖文/,/12\s*支公開旗艦長片/,/72\s*支純會員影片/,/12\s*篇網站／SEO 文稿/,/NT\$348,000/]) assert.match(homeText,pattern,`homepage missing ${pattern}`);
+for(const pattern of [/48\s*支(?:正式)?短影音/,/48\s*則社群圖文/,/12\s*支公開旗艦長片/,/6\s*篇網站／SEO 文稿/,/12\s*次會員直播/,/12\s*場 Sourdough 體驗/,/NT\$348,000/]) assert.match(homeText,pattern,`homepage missing ${pattern}`);
 assert.match(docs['service.html'],/2026\/10\/01–2027\/09\/30/);
 assert.match(docs['contract.html'],/2026\/10\/01–2027\/09\/30/);
 for(const file of ['documents/blessings-bakery-contract.docx','documents/blessings-bakery-service-guide.docx']){
   assert.ok((await stat(file)).size>20000,`${file}: full document missing`);
 }
-assert.match(docs['contract.html'],/72 支純會員影片/);
+assert.match(docs['contract.html'],/兩級 YouTube 會員/);
+assert.match(docs['contract.html'],/麥芮忻烘焙廚房/,'contract page must show the confirmed client legal name');
 assert.match(docs['service.html'],/Sourdough Taiwan/);
+for(const file of ['index.html','service.html','contract.html','progress.html']) assert.match(docs[file],/待下一次會議確認/,`${file}: unresolved decisions must be explicit`);
 assert.match(progressData,/2027\.01/);
 assert.equal((progressData.match(/id:\d+/g)||[]).length,12,'progress must include M1–M12');
 assert.equal((docs['index.html'].match(/data-preview=/g)||[]).length,4,'all four resources need preview buttons');
@@ -35,4 +37,14 @@ assert.match(docs['contract.html'],/1wVQKVJLxvjaqGIQXbnSYuO2jsxhqQz04KYH2okPHIsk
 assert.match(docs['service.html'],/10bF_wMkciBFYMOeUycFGjg626X1vX0cDp7h_rVTFyoI\/edit/,'service page must open the service guide Google Doc');
 assert.match(docs['map.html'],/year-one-growth-engine\.svg/,'year-one map missing');
 assert.match(docs['map.html'],/partner-expansion-system\.svg/,'partner expansion map missing');
+assert.match(docs['index.html'],/id="system-maps"/,'proposal homepage must embed the system maps');
+assert.match(docs['index.html'],/assets\/year-one-growth-engine\.svg/,'proposal homepage missing year-one map embed');
+assert.match(docs['index.html'],/assets\/partner-expansion-system\.svg/,'proposal homepage missing partner map embed');
+const yearMap=await readFile('assets/year-one-growth-engine.svg','utf8');
+const partnerMap=await readFile('assets/partner-expansion-system.svg','utf8');
+for(const marker of ['兩級 YouTube 會員','Sourdough Taiwan','待下一次會議確認']) assert.match(`${yearMap}\n${partnerMap}\n${Object.values(docs).join('\n')}`,new RegExp(marker),`canonical proposal missing ${marker}`);
+assert.match(yearMap,/會員第一級/);
+assert.match(yearMap,/會員第二級/);
+assert.match(partnerMap,/一年期申請／年度審核/);
+assert.doesNotMatch(`${yearMap}\n${partnerMap}`,/72 支純會員影片|3 天做出＿＿麵包|科學做麵包學員/);
 console.log(`Validated ${files.length} pages and shared proposal terms.`);

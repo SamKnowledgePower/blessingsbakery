@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
 <title id="title">Blessings Bakery 社區型烘焙坊合作夥伴擴張系統</title>
-<desc id="desc">呈現 Sourdough Taiwan 招募入口、理念篩選、基本承諾、免費輔導、產品解鎖、資料循環與十年里程碑。</desc>
+<desc id="desc">呈現 Sourdough Taiwan 從書籍與名單、基礎體驗、付費會員、一年期申請、年度審核到產品解鎖與十年里程碑。</desc>
 <defs>
  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8F3EA"/><stop offset="1" stop-color="#EADCCB"/></linearGradient>
  <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#291A13"/><stop offset="1" stop-color="#4A3021"/></linearGradient>
@@ -31,35 +31,35 @@
 <text x="960" y="281" class="sans" fill="#DCC5AC" font-size="15" font-weight="650" text-anchor="middle" letter-spacing="1.5">品牌標準 · 原物料 · 產品研發 · 免費輔導 · ERP 與資料回饋</text>
 
 <!-- three entry paths -->
-<text x="70" y="353" class="sans" fill="#9A6A42" font-size="14" font-weight="800" letter-spacing="3">01 · THREE OPEN ENTRY PATHS</text>
+<text x="70" y="353" class="sans" fill="#9A6A42" font-size="14" font-weight="800" letter-spacing="3">01 · THREE DISCOVERY PATHS</text>
 <path d="M960 308V341H324V380" class="line"/><path d="M960 308V380" class="line"/><path d="M960 308V341H1596V380" class="line"/>
 <g filter="url(#shadow)"><rect x="70" y="380" width="508" height="155" rx="22" fill="#FFFDF9" stroke="#D4BEA4"/></g>
-<text x="96" y="412" class="sans" fill="#9A6A42" font-size="13" font-weight="800">A · SOURDOUGH TAIWAN 體驗</text>
-<text x="324" y="453" class="serif ink" font-size="23" font-weight="800" text-anchor="middle">每月線上／實體交替下鄉</text>
-<text x="324" y="483" class="sans muted" font-size="14" text-anchor="middle">材料費 NT$500・實體 6–8 人開班</text>
-<text x="324" y="509" class="sans muted" font-size="13" text-anchor="middle">從體驗中找到願意推廣台灣小麥的人</text>
+<text x="96" y="412" class="sans" fill="#9A6A42" font-size="13" font-weight="800">A · 書籍讀者／LINE 名單</text>
+<text x="324" y="453" class="serif ink" font-size="23" font-weight="800" text-anchor="middle">從書中 CTA 認識計畫</text>
+<text x="324" y="483" class="sans muted" font-size="14" text-anchor="middle">QR → LINE → 綁定手機與 Email</text>
+<text x="324" y="509" class="sans muted" font-size="13" text-anchor="middle">解鎖介紹影片與基礎教育內容</text>
 
 <g filter="url(#shadow)"><rect x="706" y="380" width="508" height="155" rx="22" fill="#FFFDF9" stroke="#D4BEA4"/></g>
-<text x="732" y="412" class="sans" fill="#697461" font-size="13" font-weight="800">B · 既有場地／烘焙業者</text>
-<text x="960" y="453" class="serif ink" font-size="23" font-weight="800" text-anchor="middle">烘焙坊・教室・社區中心</text>
-<text x="960" y="483" class="sans muted" font-size="14" text-anchor="middle">已有正式烤箱、設備或轉型意願</text>
-<text x="960" y="509" class="sans muted" font-size="13" text-anchor="middle">可直接申請，不必先完成任何課程</text>
+<text x="732" y="412" class="sans" fill="#697461" font-size="13" font-weight="800">B · SOURDOUGH TAIWAN 體驗</text>
+<text x="960" y="453" class="serif ink" font-size="23" font-weight="800" text-anchor="middle">每月線上／實體交替下鄉</text>
+<text x="960" y="483" class="sans muted" font-size="14" text-anchor="middle">材料費 NT$500・實體 6–8 人開班</text>
+<text x="960" y="509" class="sans muted" font-size="13" text-anchor="middle">完成基礎體驗，認識台灣小麥與酸麵包</text>
 
 <g filter="url(#shadow)"><rect x="1342" y="380" width="508" height="155" rx="22" fill="#FFFDF9" stroke="#D4BEA4"/></g>
-<text x="1368" y="412" class="sans" fill="#697461" font-size="13" font-weight="800">C · 科學做麵包學員（選配）</text>
-<text x="1596" y="453" class="serif ink" font-size="23" font-weight="800" text-anchor="middle">帶著技術與產品構想申請</text>
-<text x="1596" y="483" class="sans muted" font-size="14" text-anchor="middle">課程能加速成長，但不是加入門檻</text>
-<text x="1596" y="509" class="sans muted" font-size="13" text-anchor="middle">不想開店，也可只參與技術學習</text>
+<text x="1368" y="412" class="sans" fill="#697461" font-size="13" font-weight="800">C · 既有業者／場地／個人</text>
+<text x="1596" y="453" class="serif ink" font-size="23" font-weight="800" text-anchor="middle">烘焙坊・教室・社區中心</text>
+<text x="1596" y="483" class="sans muted" font-size="14" text-anchor="middle">已有設備、轉型意願或創業想法</text>
+<text x="1596" y="509" class="sans muted" font-size="13" text-anchor="middle">先參與基礎體驗，再進入夥伴申請</text>
 
 <!-- application/filter -->
 <path d="M324 535V558H960V581" class="line"/><path d="M960 535V581" class="line"/><path d="M1596 535V558H960V581" class="line"/>
 <rect x="375" y="581" width="1170" height="116" rx="22" fill="#F0E0CC" stroke="#BC8A59" stroke-width="1.5"/>
-<text x="407" y="613" class="sans" fill="#9A6A42" font-size="13" font-weight="800" letter-spacing="2">02 · APPLY &amp; ALIGN</text>
-<text x="960" y="622" class="serif ink" font-size="25" font-weight="800" text-anchor="middle">申請合作｜先看理念，再確認基本承諾</text>
+<text x="407" y="607" class="sans" fill="#9A6A42" font-size="12" font-weight="800" letter-spacing="1.5">02 · EXPERIENCE, MEMBERSHIP &amp; APPLY</text>
+<text x="960" y="640" class="serif ink" font-size="24" font-weight="800" text-anchor="middle">完成基礎體驗 → 維持付費會員 → 一年期申請／年度審核</text>
 <g class="sans" fill="#4D4035" font-size="15" font-weight="650">
- <text x="525" y="662" text-anchor="middle">使用台灣小麥</text><text x="813" y="662" text-anchor="middle">固定販售認證酸麵包</text><text x="1101" y="662" text-anchor="middle">向總部採購指定原料</text><text x="1389" y="662" text-anchor="middle">回報銷售＋提供優化</text>
+ <text x="525" y="677" text-anchor="middle">使用台灣小麥</text><text x="813" y="677" text-anchor="middle">固定販售認證酸麵包</text><text x="1101" y="677" text-anchor="middle">向總部採購指定原料</text><text x="1389" y="677" text-anchor="middle">回報銷售＋提供優化</text>
 </g>
-<circle cx="525" cy="640" r="4" fill="#A87343"/><circle cx="813" cy="640" r="4" fill="#A87343"/><circle cx="1101" cy="640" r="4" fill="#A87343"/><circle cx="1389" cy="640" r="4" fill="#A87343"/>
+<circle cx="525" cy="655" r="4" fill="#A87343"/><circle cx="813" cy="655" r="4" fill="#A87343"/><circle cx="1101" cy="655" r="4" fill="#A87343"/><circle cx="1389" cy="655" r="4" fill="#A87343"/>
 
 <!-- tier ladder -->
 <text x="70" y="747" class="sans" fill="#9A6A42" font-size="14" font-weight="800" letter-spacing="3">03 · CONTRIBUTION-BASED GROWTH LADDER</text>
@@ -82,7 +82,7 @@
 <rect x="70" y="921" width="1050" height="111" rx="22" fill="#E4E9DF" stroke="#99A591"/>
 <text x="96" y="953" class="sans" fill="#687360" font-size="13" font-weight="800" letter-spacing="2">FREE HEADQUARTERS SUPPORT</text>
 <text x="96" y="984" class="serif ink" font-size="20" font-weight="800">認證配方・品質標準・原料供應・產品研發・品牌行銷・社區互動・ERP 與營運資料</text>
-<text x="96" y="1012" class="sans muted" font-size="13">夥伴的銷售與地方需求持續回饋總部，總部再修正 SOP、研發新品並強化整個網絡。</text>
+<text x="96" y="1012" class="sans muted" font-size="13">夥伴銷售與地方需求持續回饋總部；每年依理念、品質與合作貢獻重新審核，持續修正 SOP 與新品。</text>
 <path d="M1530 895V911H1120V977" class="dash"/>
 
 <rect x="1144" y="921" width="706" height="111" rx="22" fill="#2D211A"/>
