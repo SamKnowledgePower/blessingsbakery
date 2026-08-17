@@ -45,6 +45,12 @@ const partnerMap=await readFile('assets/partner-expansion-system.svg','utf8');
 for(const marker of ['兩級 YouTube 會員','Sourdough Taiwan','待下一次會議確認']) assert.match(`${yearMap}\n${partnerMap}\n${Object.values(docs).join('\n')}`,new RegExp(marker),`canonical proposal missing ${marker}`);
 assert.match(yearMap,/會員第一級/);
 assert.match(yearMap,/會員第二級/);
+assert.match(yearMap,/幸福烘焙/);
+assert.match(yearMap,/不敗的酸麵包製作/);
 assert.match(partnerMap,/一年期申請／年度審核/);
+for(const file of ['index.html','service.html','contract.html','progress.html']){
+  assert.match(docs[file],/幸福烘焙/,`${file}: missing 幸福烘焙`);
+  assert.match(docs[file],/不敗的酸麵包製作|不敗課程/,`${file}: missing 不敗的酸麵包製作`);
+}
 assert.doesNotMatch(`${yearMap}\n${partnerMap}`,/72 支純會員影片|3 天做出＿＿麵包|科學做麵包學員/);
 console.log(`Validated ${files.length} pages and shared proposal terms.`);

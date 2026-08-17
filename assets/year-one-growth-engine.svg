@@ -39,7 +39,7 @@
   <rect x="703" y="242" width="235" height="132" rx="18" class="node"/><text x="821" y="275" class="sans" fill="#9A6A42" font-size="13" font-weight="800" text-anchor="middle">REACH</text><text x="821" y="315" class="serif ink" font-size="28" font-weight="800" text-anchor="middle">4 支</text><text x="821" y="344" class="sans muted" font-size="15" text-anchor="middle">短影音／月</text>
   <rect x="956" y="242" width="235" height="132" rx="18" class="node"/><text x="1074" y="275" class="sans" fill="#9A6A42" font-size="13" font-weight="800" text-anchor="middle">RELATIONSHIP</text><text x="1074" y="315" class="serif ink" font-size="28" font-weight="800" text-anchor="middle">4 則</text><text x="1074" y="344" class="sans muted" font-size="15" text-anchor="middle">社群圖文／月</text>
   <rect x="1209" y="242" width="235" height="132" rx="18" class="sage"/><text x="1327" y="275" class="sans" fill="#697461" font-size="13" font-weight="800" text-anchor="middle">SEARCH</text><text x="1327" y="315" class="serif ink" font-size="28" font-weight="800" text-anchor="middle">6 篇</text><text x="1327" y="344" class="sans muted" font-size="15" text-anchor="middle">SEO 文案／年</text>
-  <rect x="1462" y="242" width="358" height="132" rx="18" fill="#F1E8DC" stroke="#CDB79D"/><text x="1641" y="275" class="sans" fill="#697461" font-size="13" font-weight="800" text-anchor="middle">MEMBERSHIP DEPTH</text><text x="1641" y="308" class="serif ink" font-size="23" font-weight="800" text-anchor="middle">既有課程重新錄製</text><text x="1641" y="337" class="sans muted" font-size="14" text-anchor="middle">＋每月 1 次會員直播討論</text><text x="1641" y="359" class="sans muted" font-size="12" text-anchor="middle">會員影片數量待下一次會議確認</text>
+  <rect x="1462" y="242" width="358" height="132" rx="18" fill="#F1E8DC" stroke="#CDB79D"/><text x="1641" y="275" class="sans" fill="#697461" font-size="13" font-weight="800" text-anchor="middle">MEMBERSHIP DEPTH</text><text x="1641" y="308" class="serif ink" font-size="22" font-weight="800" text-anchor="middle">兩門現有課程逐步再製</text><text x="1641" y="337" class="sans muted" font-size="14" text-anchor="middle">幸福烘焙 → 不敗的酸麵包製作</text><text x="1641" y="359" class="sans muted" font-size="12" text-anchor="middle">堂數與上架節奏依盤點確認</text>
 </g>
 
 <!-- journey label -->
@@ -84,7 +84,7 @@
 <text x="96" y="903" class="serif ink" font-size="22" font-weight="800">年度正式產量</text>
 <g class="sans" fill="#4E4035" font-size="15">
  <text x="96" y="936">12 支旗艦長片　·　48 支短影音　·　48 則社群圖文　·　6 篇 SEO</text>
- <text x="96" y="966">幸福烘焙既有課程翻拍　·　12 次會員直播　·　12 場 Sourdough 體驗</text>
+ <text x="96" y="966">幸福烘焙＋不敗的酸麵包製作逐步再製　·　12 次會員直播　·　12 場 Sourdough 體驗</text>
  <text x="96" y="994" fill="#796858" font-size="13">正式期間：2026.10–2027.09｜服務費維持 NT$29,000／月</text>
 </g>
 
@@ -93,12 +93,12 @@
 <text x="968" y="906" class="serif ink" font-size="21" font-weight="800">可驗證的年度成果</text>
 <text x="968" y="940" class="sans muted" font-size="15">2026 年底：40 位付費會員</text>
 <text x="968" y="967" class="sans muted" font-size="15">2027 年底：100 位付費會員</text>
-<text x="968" y="994" class="sans muted" font-size="15">今年：完成既有課程翻拍＋建立首批會員轉化路徑</text>
+<text x="968" y="994" class="sans muted" font-size="15">今年：兩門現有課程逐步再製＋建立首批會員轉化路徑</text>
 
 <rect x="1380" y="839" width="470" height="174" rx="23" fill="url(#dark)"/>
 <text x="1406" y="870" class="sans" fill="#C99562" font-size="14" font-weight="800" letter-spacing="2">OWNERSHIP</text>
 <text x="1406" y="905" class="serif white" font-size="20" font-weight="800">清楚分工，才能長期運轉</text>
-<text x="1406" y="938" class="sans" fill="#E1D0BF" font-size="14">Sam：內容、影音、課程翻拍、SEO、LINE／Email 經營</text>
+<text x="1406" y="938" class="sans" fill="#E1D0BF" font-size="14">Sam：內容、影音、兩門課程再製、SEO、LINE／Email 經營</text>
 <text x="1406" y="966" class="sans" fill="#E1D0BF" font-size="14">Blessings：會員與解鎖機制、網站上架維護、ERP 建構</text>
 <text x="1406" y="994" class="sans" fill="#BFA995" font-size="12">專業內容由 Blessings 確認；市場轉譯與製作由 Sam 負責</text>
 
